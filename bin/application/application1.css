@@ -1,0 +1,77 @@
+.root {
+    -fx-background-color: #1e1e2f;
+}
+
+/* Style for all standard labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F0F0F0;
+    -fx-padding: 5px;
+}
+
+/* Style for the main title label in each window */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Style for info labels (definition, complexity) */
+.info-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #B0B0C0; /* A lighter gray/purple text */
+}
+
+/* Style for all buttons */
+.button {
+    -fx-background-color: #9370DB; /* Medium Purple */
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.5, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #A98EEE; /* Lighter purple */
+    -fx-cursor: hand;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/* Style for all text fields */
+.text-field {
+    -fx-background-color: #2a2a40; /* Lighter dark */
+    -fx-text-fill: #F0F0F0; /* Light text */
+    -fx-border-color: #9370DB; /* Accent border */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: white;
+    -fx-effect: dropshadow(gaussian, #9370DB, 10, 0.5, 0, 0);
+}
+
+/* Style for the ScrollPane that holds the canvas */
+.scroll-pane {
+    -fx-background: radial-gradient(center 50% 50%, radius 100%, #483D8B, #1e1e2f); /* DarkSlateBlue to dark bg */
+    -fx-background-color: #1e1e2f; /* Fallback */
+    -fx-border-color: #9370DB;
+    -fx-border-width: 1px 0 1px 0; /* Border just on top and bottom */
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #9370DB;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track {
+    -fx-background-color: #2a2a40;
+}
