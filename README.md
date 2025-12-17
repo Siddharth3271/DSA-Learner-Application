@@ -1,48 +1,66 @@
-A JavaFX-based Data Structure Visualizer designed to help learners understand core data structures through interactive visualizations and operations.
+# 📘 DSA Learner Application (JavaFX)
 
-This project focuses on clarity, simplicity, and hands-on learning for Arrays, Stacks, Queues, and Linked Lists.
+A **JavaFX-based Data Structure Visualizer** designed to help learners understand core DSA concepts through **interactive and real-time visualizations**.
 
-**Features**
-Real-time Visualization: Watch how data moves and changes within structures.
+This project focuses on clarity, simplicity, and hands-on learning for:
+- Arrays
+- Stacks
+- Queues
+- Linked Lists
 
-Supported Structures:
+---
 
-Arrays: Dynamic visualization of indexing and sequential access.
+## 🚀 Features
 
-Stacks: "Last-In, First-Out" (LIFO) operations (Push/Pop).
+- 🔄 **Real-time Visualization** – Watch how data moves and changes within structures
+- 🧩 **Interactive Controls** – Perform operations step by step
+- 🎨 **Modern UI** – Built using JavaFX and styled with CSS
 
-Queues: "First-In, First-Out" (FIFO) logic visualization.
+---
 
-Linked Lists: Visualizing nodes and pointer manipulations.
+## 🧠 Supported Data Structures
 
-Modern UI: Built with JavaFX and styled with CSS for a clean, user-friendly experience.
+- **Arrays**
+  - Index-based access
+  - Sequential traversal
 
-Interactive Controls: Manually trigger operations to see step-by-step changes.
+- **Stacks**
+  - LIFO operations (Push / Pop)
 
-**Project Structure**
+- **Queues**
+  - FIFO logic visualization
 
+- **Linked Lists**
+  - Node creation and pointer manipulation
+
+---
+
+## 📂 Project Structure
+
+```text
 DSA-Learner-Application
 │
-├── src/
-│   ├── application/
-│   │   ├── Main.java
-│   │   ├── Array.java
-│   │   ├── Stack.java
-│   │   ├── Queue.java
-│   │   ├── LinkedList.java
-│   │   ├── ArrayWindow.java
-│   │   ├── StackWindow.java
-│   │   ├── QueueWindow.java
-│   │   └── LinkedListWindow.java
-│   │   ├── QueueController.java
-│   │   └── LinkedListController.java
-│   │   └── ArrayController.java
-│   │   └── StackController.java
-│   │   └── icons
+├── src
+│   └── application
+│       ├── Main.java
+│       ├── Array.java
+│       ├── Stack.java
+│       ├── Queue.java
+│       ├── LinkedList.java
+│       ├── ArrayWindow.java
+│       ├── StackWindow.java
+│       ├── QueueWindow.java
+│       ├── LinkedListWindow.java
+│       ├── ArrayController.java
+│       ├── StackController.java
+│       ├── QueueController.java
+│       ├── LinkedListController.java
+│       ├── icons
+│       └── application1.css
 │
-├── application.css
 ├── module-info.java
 └── README.md
+```
 
 **Installation & Setup**
 Prerequisites:
