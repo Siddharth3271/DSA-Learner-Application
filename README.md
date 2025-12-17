@@ -100,4 +100,4 @@ git clone https://github.com/Siddharth3271/DsaLearner.git
 **Application ScreenShots**
 ![mainscreen](img/main.png)
 
-![Stack](Stack.png)
+![stack](img/stack.png)
