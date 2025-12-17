@@ -8,6 +8,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.scene.image.Image;
 
 public class Main extends Application{
     @Override
@@ -53,6 +54,13 @@ public class Main extends Application{
         scene.getStylesheets().add(getClass().getResource("application1.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.setTitle("DSA Learner - Main Menu");
+        primaryStage.getIcons().add(
+        	    new javafx.scene.image.Image(
+        	        Main.class
+        	            .getResource("/application/icons/dsa.png")
+        	            .toExternalForm()
+        	    )
+        );
         primaryStage.show();
         primaryStage.setResizable(false);
     }
