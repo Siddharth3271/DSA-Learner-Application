@@ -96,3 +96,7 @@ git clone https://github.com/Siddharth3271/DsaLearner.git
 **Further Enhancements**
 - Tree and Graph Visualizations
 - Detailed Notes for each data structure
+
+**Application ScreenShots**
+![mainscreen](img/main.png)
+![Stack](stack.png)
