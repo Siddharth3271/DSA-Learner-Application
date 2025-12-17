@@ -98,6 +98,7 @@ git clone https://github.com/Siddharth3271/DsaLearner.git
 - Detailed Notes for each data structure
 
 **Application ScreenShots**
+
 ![mainscreen](img/main.png)
 
 ![stack](img/stack.png)
